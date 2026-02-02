@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#ff2d74" />
+  <title>Risultati — 23K Team</title>
+  <meta name="description" content="Risultati, piazzamenti e highlight del 23K Team." />
+
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/risultati.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Salta al contenuto</a>
+
+  <header class="topbar" data-topbar>
+    <div class="wrap">
+      <a class="brand" href="index.html" aria-label="23K Team">
+        <img src="assets/logo.png" alt="Logo 23K Team" width="44" height="44" />
+        <span>
+          <strong>23K Team</strong>
+          <em>Esports</em>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Navigazione principale" data-nav>
+        <a href="index.html">Divisioni</a>
+        <a href="index.html#socials">Social</a>
+        <a href="news.html">News</a>
+        <a href="risultati.html">Risultati</a>
+        <a href="sponsor.html">Sponsor</a>
+        <a href="contattaci.html">Contatti</a>
+      </nav>
+
+      <div class="actions">
+        <a class="btn ghost" href="sponsor.html">Diventa sponsor</a>
+        <button class="menu" type="button" aria-label="Apri menu" aria-expanded="false" data-menu>
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile" data-mobile-nav aria-hidden="true">
+    <div class="mobile-inner">
+      <nav class="mobile-links" aria-label="Menu mobile">
+        <a href="index.html">Divisioni</a>
+        <a href="index.html#socials">Social</a>
+        <a href="news.html">News</a>
+        <a href="risultati.html">Risultati</a>
+        <a href="sponsor.html">Sponsor</a>
+        <a href="contattaci.html">Contatti</a>
+      </nav>
+      <div class="mobile-cta">
+        <a class="btn" href="sponsor.html">Diventa sponsor</a>
+        <a class="btn ghost" href="contattaci.html">Scrivici</a>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- RESULTS -->
+    <section id="results" class="section alt">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <h1>Risultati</h1>
+          <p>Un posto pulito per highlight e piazzamenti. Aggiorna in <code>js/global.js</code>.</p>
+        </div>
+
+        <div class="results">
+          <div class="results-table" data-reveal>
+            <div class="rt-head">
+              <span>Evento</span><span>Game</span><span>Posizione</span><span>Data</span>
+            </div>
+            <div id="resultsRows"></div>
+          </div>
+
+          <aside class="highlight" data-reveal>
+            <h3>Highlight</h3>
+            <p>
+              Aggiungi un clip, un tweet o un video YouTube.
+              Qui sotto trovi un embed "placeholder".
+            </p>
+            <div class="embed" role="group" aria-label="Video highlight">
+              <iframe
+                title="YouTube — 23K Team"
+                src="https://www.youtube-nocookie.com/embed?listType=channel&list=UC3_Y9m0GOqOrO9uFhjiJPQQ"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                loading="lazy"
+              ></iframe>
+            </div>
+            <a class="btn ghost" href="https://www.youtube.com/channel/UC3_Y9m0GOqOrO9uFhjiJPQQ" target="_blank" rel="noreferrer">Guarda su YouTube</a>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="foot">
+        <div class="brand small">
+          <img src="assets/logo.png" alt="" width="34" height="34" />
+          <span>
+            <strong>23K Team</strong>
+            <em>Esports</em>
+          </span>
+        </div>
+
+        <div class="foot-links">
+          <a href="index.html">Divisioni</a>
+          <a href="index.html#socials">Social</a>
+          <a href="news.html">News</a>
+          <a href="risultati.html">Risultati</a>
+          <a href="sponsor.html">Sponsor</a>
+          <a href="contattaci.html">Contatti</a>
+        </div>
+
+        <div class="copy">
+          <span>© <span id="year"></span> 23K Team. Tutti i diritti riservati.</span>
+          <span class="sep">•</span>
+          <a href="#">Privacy</a>
+          <span class="sep">•</span>
+          <a href="#">Cookie</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/global.js"></script>
+</body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contatti | 23K Esport Team - Elite Esport Club</title>
+  <meta name="description" content="Contattaci! Hai domande su 23K Esport Team? Social hub e form di contatto per partnership, info e supporto.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Contatti - 23K Esport Team">
+  <meta property="og:description" content="Entra in contatto con 23K Esport Team. Discord, social e form di contatto.">
+  <meta property="og:image" content="https://via.placeholder.com/1200x630?text=Contatti+23K">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect fill='%23000000' width='100' height='100'/%3E%3Ctext x='50' y='70' font-size='60' font-weight='bold' fill='%23FF69B4' text-anchor='middle'%3E23K%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+      <div class="logo"><span>23K</span> ESPORT</div>
+      <button class="menu-toggle">☰</button>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle">GAMES</a>
+          <ul class="dropdown-menu">
+            <li><a href="esports/apex-legends.html">Apex Legends</a></li>
+            <li><a href="esports/valorant.html">Valorant</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle">COMMUNITY</a>
+          <ul class="dropdown-menu">
+            <li><a href="community/destiny-2.html">Destiny 2</a></li>
+            <li><a href="community/sim-racing.html">Sim Racing</a></li>
+            <li><a href="community/arcriders.html">ArcRiders</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="partners.html" class="nav-link">PARTNER</a></li>
+        <li class="nav-item"><a href="creators.html" class="nav-link">CREATOR</a></li>
+        <li class="nav-item"><a href="contatti.html" class="nav-link">CONTATTI</a></li>
+      </ul>
+      <button class="btn-join" onclick="window.location.href='https://discord.gg/23k'">UNISCITI</button>
+    </div>
+  </nav>
+
+  <section class="hero" style="background: linear-gradient(135deg, rgba(255, 105, 180, 0.05) 0%, rgba(0, 0, 0, 0.9) 100%);">
+    <div class="hero-content">
+      <h1>Contattaci</h1>
+      <p class="hero-subtitle">Siamo Qui per Ascoltare</p>
+      <p class="hero-description">
+        Hai domande, suggerimenti o vuoi collaborare? 
+        Usa il form qui sotto o contattaci direttamente sui nostri canali social.
+      </p>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="section-title">
+      <h2>Canali di Contatto</h2>
+      <p style="color: #b0b0b0; margin-top: 1rem;">Scegli il canale che preferisci</p>
+    </div>
+    
+    <div class="grid grid-3">
+      <div class="card">
+        <h3 class="card-title">💜 Discord</h3>
+        <p class="card-description">
+          Il nostro hub principale! Unisciti al server Discord per comunicare direttamente con il team e la community.
+        </p>
+        <a href="https://discord.gg/23k" target="_blank" class="btn btn-secondary" style="width: 100%;">Accedi al Discord →</a>
+      </div>
+      
+      <div class="card">
+        <h3 class="card-title">𝕏 Twitter/X</h3>
+        <p class="card-description">
+          Seguici per news, aggiornamenti e interazioni veloci. Rispondiamo rapidamente ai DM.
+        </p>
+        <a href="https://twitter.com/23kteam" target="_blank" class="btn btn-secondary" style="width: 100%;">Visita Twitter →</a>
+      </div>
+      
+      <div class="card">
+        <h3 class="card-title">📧 Email</h3>
+        <p class="card-description">
+          Per questioni formali, partnership o segnalazioni. Rispondiamo entro 48 ore.
+        </p>
+        <a href="mailto:info@23kteam.com" class="btn btn-secondary" style="width: 100%;">Invia Email →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="section-title">
+      <h2>Scrivici un Messaggio</h2>
+      <p style="color: #b0b0b0; margin-top: 1rem;">Compila il form qui sotto</p>
+    </div>
+    
+    <div style="max-width: 600px; margin: 2rem auto;">
+      <form id="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" style="background: linear-gradient(135deg, var(--dark-gray), var(--light-gray)); border: 1px solid rgba(255, 105, 180, 0.2); border-radius: 12px; padding: 2rem;">
+        
+        <div class="form-group">
+          <label for="name">Nome Completo *</label>
+          <input type="text" id="name" name="name" placeholder="Il tuo nome" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" placeholder="il.tuo@email.com" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="subject">Argomento *</label>
+          <select id="subject" name="subject" required>
+            <option value="">-- Seleziona --</option>
+            <option value="partnership">Partnership</option>
+            <option value="creator">Creator/Affiliate</option>
+            <option value="technical">Supporto Tecnico</option>
+            <option value="suggestion">Suggerimento</option>
+            <option value="other">Altro</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Messaggio *</label>
+          <textarea id="message" name="message" placeholder="Scrivi il tuo messaggio..." required></textarea>
+        </div>
+        
+        <div class="form-group">
+          <label for="discord">Discord Username (opzionale)</label>
+          <input type="text" id="discord" name="discord" placeholder="Il.tuo.nick#0000">
+        </div>
+        
+        <button type="submit" class="form-submit" style="width: 100%;">Invia Messaggio →</button>
+        
+        <p style="color: #a0a0a0; font-size: 0.85rem; margin-top: 1rem; text-align: center;">
+          I campi segnati con * sono obbligatori. Rispondiamo entro 48 ore.
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="section-title">
+      <h2>Social Media</h2>
+      <p style="color: #b0b0b0; margin-top: 1rem;">Seguici su tutti i canali</p>
+    </div>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+      <a href="https://discord.gg/23k" target="_blank" style="background: linear-gradient(135deg, var(--dark-gray), var(--light-gray)); border: 1px solid rgba(255, 105, 180, 0.2); border-radius: 12px; padding: 2rem; text-align: center; text-decoration: none; transition: var(--transition);" onmouseover="this.style.borderColor='var(--pink)'; this.style.boxShadow='var(--shadow-strong)';" onmouseout="this.style.borderColor='rgba(255, 105, 180, 0.2)'; this.style.boxShadow='none';">
+        <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">💜</div>
+        <div style="color: var(--white); font-weight: 600;">Discord</div>
+      </a>
+      
+      <a href="https://twitch.tv/23kteam" target="_blank" style="background: linear-gradient(135deg, var(--dark-gray), var(--light-gray)); border: 1px solid rgba(255, 105, 180, 0.2); border-radius: 12px; padding: 2rem; text-align: center; text-decoration: none; transition: var(--transition);" onmouseover="this.style.borderColor='var(--pink)'; this.style.boxShadow='var(--shadow-strong)';" onmouseout="this.style.borderColor='rgba(255, 105, 180, 0.2)'; this.style.boxShadow='none';">
+        <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🎮</div>
+        <div style="color: var(--white); font-weight: 600;">Twitch</div>
+      </a>
+      
+      <a href="https://youtube.com/@23kteam" target="_blank" style="background: linear-gradient(135deg, var(--dark-gray), var(--light-gray)); border: 1px solid rgba(255, 105, 180, 0.2); border-radius: 12px; padding: 2rem; text-align: center; text-decoration: none; transition: var(--transition);" onmouseover="this.style.borderColor='var(--pink)'; this.style.boxShadow='var(--shadow-strong)';" onmouseout="this.style.borderColor='rgba(255, 105, 180, 0.2)'; this.style.boxShadow='none';">
+        <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">📺</div>
+        <div style="color: var(--white); font-weight: 600;">YouTube</div>
+      </a>
+      
+      <a href="https://twitter.com/23kteam" target="_blank" style="background: linear-gradient(135deg, var(--dark-gray), var(--light-gray)); border: 1px solid rgba(255, 105, 180, 0.2); border-radius: 12px; padding: 2rem; text-align: center; text-decoration: none; transition: var(--transition);" onmouseover="this.style.borderColor='var(--pink)'; this.style.boxShadow='var(--shadow-strong)';" onmouseout="this.style.borderColor='rgba(255, 105, 180, 0.2)'; this.style.boxShadow='none';">
+        <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">𝕏</div>
+        <div style="color: var(--white); font-weight: 600;">Twitter</div>
+      </a>
+      
+      <a href="https://instagram.com/23kteam" target="_blank" style="background: linear-gradient(135deg, var(--dark-gray), var(--light-gray)); border: 1px solid rgba(255, 105, 180, 0.2); border-radius: 12px; padding: 2rem; text-align: center; text-decoration: none; transition: var(--transition);" onmouseover="this.style.borderColor='var(--pink)'; this.style.boxShadow='var(--shadow-strong)';" onmouseout="this.style.borderColor='rgba(255, 105, 180, 0.2)'; this.style.boxShadow='none';">
+        <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">📸</div>
+        <div style="color: var(--white); font-weight: 600;">Instagram</div>
+      </a>
+      
+      <a href="https://tiktok.com/@23kteam" target="_blank" style="background: linear-gradient(135deg, var(--dark-gray), var(--light-gray)); border: 1px solid rgba(255, 105, 180, 0.2); border-radius: 12px; padding: 2rem; text-align: center; text-decoration: none; transition: var(--transition);" onmouseover="this.style.borderColor='var(--pink)'; this.style.boxShadow='var(--shadow-strong)';" onmouseout="this.style.borderColor='rgba(255, 105, 180, 0.2)'; this.style.boxShadow='none';">
+        <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🎬</div>
+        <div style="color: var(--white); font-weight: 600;">TikTok</div>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>23K ESPORT</h3>
+        <p style="color: #b0b0b0; font-size: 0.95rem;">L'Elite della Competizione, il Cuore della Community.</p>
+        <div class="social-links">
+          <a href="https://discord.gg/23k" target="_blank">💜</a>
+          <a href="https://twitch.tv" target="_blank">🎮</a>
+          <a href="https://twitter.com" target="_blank">𝕏</a>
+          <a href="https://youtube.com" target="_blank">📺</a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Giochi</h3>
+        <ul class="footer-links">
+          <li><a href="esports/apex-legends.html">Apex Legends</a></li>
+          <li><a href="esports/valorant.html">Valorant</a></li>
+          <li><a href="community/destiny-2.html">Destiny 2</a></li>
+          <li><a href="community/sim-racing.html">Sim Racing</a></li>
+          <li><a href="community/arcriders.html">ArcRiders</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Company</h3>
+        <ul class="footer-links">
+          <li><a href="partners.html">Partner</a></li>
+          <li><a href="creators.html">Creator</a></li>
+          <li><a href="contatti.html">Contatti</a></li>
+          <li><a href="#privacy">Privacy Policy</a></li>
+          <li><a href="#terms">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Support</h3>
+        <p style="color: #b0b0b0; font-size: 0.95rem; margin-bottom: 1rem;">
+          Rispondere entro 48 ore. Per urgenze usa il Discord.
+        </p>
+        <a href="https://discord.gg/23k" class="btn btn-secondary" style="width: 100%;" target="_blank">Discord Support</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 23K Esport Team. Tutti i diritti riservati.</p>
+      <p class="footer-disclaimer">
+        Per privacy e cookie policy, consulta le nostre documentazioni legali sul Discord.
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

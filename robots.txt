@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://23k-team.github.io/sitemap.xml
+
+# Crawl-delay to prevent overloading
+Crawl-delay: 1
+
+# Disallow admin/private areas (se ne aveste)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow important bot crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
