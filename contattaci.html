@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#ff2d74" />
+  <title>Contatti — 23K Team</title>
+  <meta name="description" content="Contatti e form di comunicazione del 23K Team." />
+
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/contattaci.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Salta al contenuto</a>
+
+  <header class="topbar" data-topbar>
+    <div class="wrap">
+      <a class="brand" href="index.html" aria-label="23K Team">
+        <img src="assets/logo.png" alt="Logo 23K Team" width="44" height="44" />
+        <span>
+          <strong>23K Team</strong>
+          <em>Esports</em>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Navigazione principale" data-nav>
+        <a href="index.html">Divisioni</a>
+        <a href="index.html#socials">Social</a>
+        <a href="news.html">News</a>
+        <a href="risultati.html">Risultati</a>
+        <a href="sponsor.html">Sponsor</a>
+        <a href="contattaci.html">Contatti</a>
+      </nav>
+
+      <div class="actions">
+        <a class="btn ghost" href="sponsor.html">Diventa sponsor</a>
+        <button class="menu" type="button" aria-label="Apri menu" aria-expanded="false" data-menu>
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile" data-mobile-nav aria-hidden="true">
+    <div class="mobile-inner">
+      <nav class="mobile-links" aria-label="Menu mobile">
+        <a href="index.html">Divisioni</a>
+        <a href="index.html#socials">Social</a>
+        <a href="news.html">News</a>
+        <a href="risultati.html">Risultati</a>
+        <a href="sponsor.html">Sponsor</a>
+        <a href="contattaci.html">Contatti</a>
+      </nav>
+      <div class="mobile-cta">
+        <a class="btn" href="sponsor.html">Diventa sponsor</a>
+        <a class="btn ghost" href="contattaci.html">Scrivici</a>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <h1>Contatti</h1>
+          <p>Form pronto: sostituisci l'endpoint in <code>js/global.js</code> (Formspree / Getform / endpoint tuo).</p>
+        </div>
+
+        <div class="contact">
+          <form class="form" id="contactForm" data-reveal>
+            <label>
+              <span>Nome</span>
+              <input name="name" autocomplete="name" placeholder="Il tuo nome" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" autocomplete="email" placeholder="nome@email.com" required />
+            </label>
+            <label>
+              <span>Messaggio</span>
+              <textarea name="message" rows="5" placeholder="Come possiamo aiutarti?" required></textarea>
+            </label>
+            <button class="btn" type="submit">Invia</button>
+            <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+          </form>
+
+          <aside class="contact-card" data-reveal>
+            <h3>Info</h3>
+            <div class="info">
+              <div>
+                <span>Email</span>
+                <a href="mailto:23k.officialteam@gmail.com">23k.officialteam@gmail.com</a>
+              </div>
+              <div>
+                <span>Codice Instant Gaming</span>
+                <a href="https://www.instant-gaming.com/?igr=GO23K" target="_blank" rel="noreferrer">GO23K</a>
+              </div>
+              <div>
+                <span>Codice Noisyboys (-25%)</span>
+                <span class="muted"><strong>GO23K</strong></span>
+              </div>
+              <div>
+                <span>Social</span>
+                <div class="social">
+                  <a href="https://www.instagram.com/the23kteam" target="_blank" rel="noreferrer" aria-label="Instagram">Instagram</a>
+                  <a href="https://www.twitch.tv/23kteam" target="_blank" rel="noreferrer" aria-label="Twitch">Twitch</a>
+                  <a href="https://www.youtube.com/channel/UC3_Y9m0GOqOrO9uFhjiJPQQ" target="_blank" rel="noreferrer" aria-label="YouTube">YouTube</a>
+                  <a href="https://www.tiktok.com/@the23kteam" target="_blank" rel="noreferrer" aria-label="TikTok">TikTok</a>
+                  <a href="https://www.facebook.com/23K.Team" target="_blank" rel="noreferrer" aria-label="Facebook">Facebook</a>
+                  <a href="https://discord.gg/element-gaming-asd-365966047058198529" target="_blank" rel="noreferrer" aria-label="Discord">Discord</a>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="foot">
+        <div class="brand small">
+          <img src="assets/logo.png" alt="" width="34" height="34" />
+          <span>
+            <strong>23K Team</strong>
+            <em>Esports</em>
+          </span>
+        </div>
+
+        <div class="foot-links">
+          <a href="index.html">Divisioni</a>
+          <a href="index.html#socials">Social</a>
+          <a href="news.html">News</a>
+          <a href="risultati.html">Risultati</a>
+          <a href="sponsor.html">Sponsor</a>
+          <a href="contattaci.html">Contatti</a>
+        </div>
+
+        <div class="copy">
+          <span>© <span id="year"></span> 23K Team. Tutti i diritti riservati.</span>
+          <span class="sep">•</span>
+          <a href="#">Privacy</a>
+          <span class="sep">•</span>
+          <a href="#">Cookie</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/global.js"></script>
+</body>
+</html>

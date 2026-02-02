@@ -1,382 +1,277 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="theme-color" content="#ff2d74" />
-  <title>23K Team — Esports</title>
-  <meta name="description" content="Sito ufficiale del 23K Team: divisioni, news, risultati, sponsor e contatti." />
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="23K Team — Esports" />
-  <meta property="og:description" content="Divisioni, news, risultati, sponsor e contatti del 23K Team." />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="assets/hero-valorant.png" />
-
-  <link rel="icon" href="assets/logo.png" />
-  <link rel="preload" as="image" href="assets/hero-valorant.png" />
-  <link rel="preload" as="image" href="assets/logo.png" />
-
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | 23K Esport Team - Elite Esport Club</title>
+  <meta name="description" content="23K Esport Team - L'Elite della Competizione, il Cuore della Community. Scopri i nostri roster pro, community gaming e partnership esclusive.">
+  <meta name="keywords" content="esport, gaming, team, competitive, valorant, apex legends, community">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="23K Esport Team">
+  
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="23K Esport Team - Elite della Competizione">
+  <meta property="og:description" content="Unisciti alla community gaming più elite. Roster pro, tornei competitivi e creator esperti.">
+  <meta property="og:image" content="https://via.placeholder.com/1200x630">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://23k-esport.github.io/">
+  
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="23K Esport Team - Elite della Competizione">
+  <meta name="twitter:description" content="Unisciti alla community gaming più elite. Scopri i nostri roster pro e partnership esclusive.">
+  <meta name="twitter:image" content="https://via.placeholder.com/1200x630">
+  <meta name="twitter:creator" content="@23KEsport">
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect fill='%23000000' width='100' height='100'/%3E%3Ctext x='50' y='70' font-size='60' font-weight='bold' fill='%23FF69B4' text-anchor='middle'%3E23K%3C/text%3E%3C/svg%3E">
 </head>
 <body>
-  <a class="skip" href="#main">Salta al contenuto</a>
+  <!-- ==================== NAVBAR ==================== -->
+  <nav>
+    <div class="navbar">
+      <div class="logo">
+        <span>23K</span> ESPORT
+      </div>
+      
+      <button class="menu-toggle">☰</button>
+      
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">HOME</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle">GAMES</a>
+          <ul class="dropdown-menu">
+            <li><a href="esports/apex-legends.html">Apex Legends</a></li>
+            <li><a href="esports/valorant.html">Valorant</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle">COMMUNITY</a>
+          <ul class="dropdown-menu">
+            <li><a href="community/destiny-2.html">Destiny 2</a></li>
+            <li><a href="community/sim-racing.html">Sim Racing</a></li>
+            <li><a href="community/arcriders.html">ArcRiders</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item">
+          <a href="partners.html" class="nav-link">PARTNER</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="creators.html" class="nav-link">CREATOR</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="contatti.html" class="nav-link">CONTATTI</a>
+        </li>
+      </ul>
+      
+      <button class="btn-join" onclick="window.location.href='https://discord.gg/23k'">UNISCITI</button>
+    </div>
+  </nav>
 
-  <header class="topbar" data-topbar>
-    <div class="wrap">
-      <a class="brand" href="#home" aria-label="23K Team">
-        <img src="assets/logo.png" alt="Logo 23K Team" width="44" height="44" />
-        <span>
-          <strong>23K Team</strong>
-          <em>Esports</em>
-        </span>
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>L'Elite della Competizione</h1>
+      <p class="hero-subtitle">Il Cuore della Community</p>
+      <p class="hero-description">
+        23K Esport Team rappresenta l'eccellenza competitiva e l'inclusione nella community gaming. 
+        Dal competitive Valorant e Apex Legends alla community aperta e accogliente di Destiny 2, 
+        Sim Racing e ArcRiders. Siamo più di un team, siamo una famiglia.
+      </p>
+      
+      <div class="cta-buttons">
+        <a href="https://discord.gg/23k" class="btn btn-primary" target="_blank">
+          💜 UNISCITI SU DISCORD
+        </a>
+        <a href="#games" class="btn btn-secondary">
+          ↓ SCOPRI I NOSTRI GIOCHI
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== GAMES SECTION ==================== -->
+  <section id="games" class="container">
+    <div class="section-title">
+      <h2>I Nostri Giochi</h2>
+      <p style="color: #b0b0b0; margin-top: 1rem;">Scopri i nostri team competitivi e community</p>
+    </div>
+    
+    <div class="grid grid-3">
+      <!-- Apex Legends Card -->
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250?text=Apex+Legends" alt="Apex Legends" class="card-image">
+        <h3 class="card-title">Apex Legends</h3>
+        <p class="card-description">
+          Roster competitivo di alto livello con i migliori giocatori del panorama nazionale. 
+          Partecipazione a tornei qualificati e allenamenti costanti.
+        </p>
+        <a href="esports/apex-legends.html" class="btn btn-secondary">Vedi Roster →</a>
+      </div>
+      
+      <!-- Valorant Card -->
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250?text=Valorant" alt="Valorant" class="card-image">
+        <h3 class="card-title">Valorant</h3>
+        <p class="card-description">
+          Team pro competitivo e community vibrante. 
+          Tornei interni, community matches e coaching esclusivo per i nostri affiliati.
+        </p>
+        <a href="esports/valorant.html" class="btn btn-secondary">Vedi Roster →</a>
+      </div>
+      
+      <!-- Community Highlights -->
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250?text=Community+Gaming" alt="Community" class="card-image">
+        <h3 class="card-title">Community</h3>
+        <p class="card-description">
+          Destiny 2 Sherpa, Sim Racing e ArcRiders. 
+          Una community inclusiva dove il divertimento e la crescita personale sono prioritari.
+        </p>
+        <a href="community/destiny-2.html" class="btn btn-secondary">Esplora Community →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== STATS SECTION ==================== -->
+  <section class="container">
+    <div class="stats-container">
+      <div class="stat-box">
+        <div class="stat-number">50</div>
+        <div class="stat-label">Giocatori Attivi</div>
+      </div>
+      
+      <div class="stat-box">
+        <div class="stat-number">12</div>
+        <div class="stat-label">Partner Ufficiali</div>
+      </div>
+      
+      <div class="stat-box">
+        <div class="stat-number">20</div>
+        <div class="stat-label">Creator Partner</div>
+      </div>
+      
+      <div class="stat-box">
+        <div class="stat-number">5000</div>
+        <div class="stat-label">Community Discord</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== WHY 23K SECTION ==================== -->
+  <section class="container">
+    <div class="section-title">
+      <h2>Perché 23K?</h2>
+      <p style="color: #b0b0b0; margin-top: 1rem;">Tre pilastri che definiscono la nostra identità</p>
+    </div>
+    
+    <div class="grid">
+      <div class="card">
+        <h3 class="card-title">🏆 Excellence</h3>
+        <p class="card-description">
+          Roster pro di qualità competitiva internazionale. Partecipazione a tornei e sviluppo costante 
+          delle abilità dei nostri giocatori attraverso allenamenti strutturati.
+        </p>
+      </div>
+      
+      <div class="card">
+        <h3 class="card-title">🤝 Community</h3>
+        <p class="card-description">
+          Una famiglia di giocatori aperta e inclusiva. Dal competitive al casual, 
+          c'è sempre spazio per crescere e divertirsi insieme.
+        </p>
+      </div>
+      
+      <div class="card">
+        <h3 class="card-title">🌟 Partnership</h3>
+        <p class="card-description">
+          Collaborazioni strategiche con brand leader nel gaming. Vantaggi esclusivi, 
+          sconti e contenuti speciali per i nostri affiliati.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CTA SECTION ==================== -->
+  <section style="background: linear-gradient(135deg, rgba(255, 105, 180, 0.1) 0%, rgba(255, 105, 180, 0.05) 100%); padding: 5rem 2rem; text-align: center;">
+    <div class="container">
+      <h2 style="margin-bottom: 1rem;">Pronto a Fare Parte dell'Elite?</h2>
+      <p style="font-size: 1.2rem; color: #b0b0b0; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+        Unisciti a centinaia di giocatori che hanno scelto 23K Esport Team. 
+        Che tu sia competitivo o casual, c'è un posto per te.
+      </p>
+      <a href="https://discord.gg/23k" class="btn btn-primary" target="_blank">
+        Accedi al Discord →
       </a>
+    </div>
+  </section>
 
-      <nav class="nav" aria-label="Navigazione principale" data-nav>
-        <a href="#games">Divisioni</a>
-        <a href="#socials">Social</a>
-        <a href="#news">News</a>
-        <a href="#results">Risultati</a>
-        <a href="#partners">Sponsor</a>
-        <a href="#contact">Contatti</a>
-      </nav>
-
-      <div class="actions">
-        <a class="btn ghost" href="#partners">Diventa sponsor</a>
-        <button class="menu" type="button" aria-label="Apri menu" aria-expanded="false" data-menu>
-          <span></span><span></span><span></span>
-        </button>
+  <!-- ==================== FOOTER ==================== -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>23K ESPORT</h3>
+        <p style="color: #b0b0b0; font-size: 0.95rem;">
+          L'Elite della Competizione, il Cuore della Community. 
+          Unisciti a noi e scopri la differenza.
+        </p>
+        <div class="social-links">
+          <a href="https://discord.gg/23k" target="_blank" title="Discord">💜</a>
+          <a href="https://twitch.tv" target="_blank" title="Twitch">🎮</a>
+          <a href="https://twitter.com" target="_blank" title="Twitter">𝕏</a>
+          <a href="https://youtube.com" target="_blank" title="YouTube">📺</a>
+        </div>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Giochi</h3>
+        <ul class="footer-links">
+          <li><a href="esports/apex-legends.html">Apex Legends</a></li>
+          <li><a href="esports/valorant.html">Valorant</a></li>
+          <li><a href="community/destiny-2.html">Destiny 2</a></li>
+          <li><a href="community/sim-racing.html">Sim Racing</a></li>
+          <li><a href="community/arcriders.html">ArcRiders</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Company</h3>
+        <ul class="footer-links">
+          <li><a href="partners.html">Partner</a></li>
+          <li><a href="creators.html">Creator</a></li>
+          <li><a href="contatti.html">Contatti</a></li>
+          <li><a href="#privacy">Privacy Policy</a></li>
+          <li><a href="#terms">Terms of Service</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Contattaci</h3>
+        <p style="color: #b0b0b0; font-size: 0.95rem; margin-bottom: 1rem;">
+          Domande o proposte? Siamo qui per ascoltarti.
+        </p>
+        <a href="contatti.html" class="btn btn-secondary" style="width: 100%;">
+          Invia un Messaggio
+        </a>
       </div>
     </div>
-  </header>
-
-  <div class="mobile" data-mobile-nav aria-hidden="true">
-    <div class="mobile-inner">
-      <nav class="mobile-links" aria-label="Menu mobile">
-        <a href="#games">Divisioni</a>
-        <a href="#socials">Social</a>
-        <a href="#news">News</a>
-        <a href="#results">Risultati</a>
-        <a href="#partners">Sponsor</a>
-        <a href="#contact">Contatti</a>
-      </nav>
-      <div class="mobile-cta">
-        <a class="btn" href="#partners">Diventa sponsor</a>
-        <a class="btn ghost" href="#contact">Scrivici</a>
-      </div>
-    </div>
-  </div>
-
-  <main id="main">
-    <!-- HERO -->
-    <section id="home" class="hero" aria-label="Copertina">
-      <div class="hero-bg" aria-hidden="true">
-        <img class="hero-img is-active" src="assets/hero-valorant.png" alt="" data-hero-img="0" />
-        <img class="hero-img" src="assets/hero-apex.png" alt="" data-hero-img="1" />
-        <img class="hero-img" src="assets/hero-arc.png" alt="" data-hero-img="2" />
-        <div class="hero-overlay"></div>
-        <div class="hero-grid"></div>
-      </div>
-
-      <div class="wrap hero-content">
-        <div class="kicker" data-reveal>
-          <span class="pill">LIVE • SCRIM • TOURNAMENTS</span>
-          <span class="pill outline">#23KFamily</span>
-        </div>
-
-        <h1 class="title" data-reveal>
-          Siamo in costante ricerca di nuovi <span class="neon">talenti</span>, sarai tu il prossimo <span class="neon">23K</span> a fare la differenza?
-        </h1>
-
-        <p class="lead" data-reveal>
-          E-sports Team, Community, Network. <br> 23K Team è tutto questo ma sintetizzato in un unico progetto gaming a 360° dove ogni player può trovare la sua strada.
-
-        <div class="cta" data-reveal>
-          <a class="btn" href="#games">Scopri le divisioni</a>
-          <a class="btn ghost" href="#socials">Seguici</a>
-        </div>
-
-        <div class="hero-metrics" data-reveal>
-          <div class="metric"><strong>5</strong><span>Divisioni</span></div>
-          <div class="metric"><strong>24/7</strong><span>Training</span></div>
-          <div class="metric"><strong>∞</strong><span>Ambizione</span></div>
-        </div>
-
-        <div class="hero-switch" aria-label="Selettore immagine" data-reveal>
-          <button class="dot is-active" type="button" aria-label="Valorant" data-hero="0"></button>
-          <button class="dot" type="button" aria-label="Apex" data-hero="1"></button>
-          <button class="dot" type="button" aria-label="ARC Raiders" data-hero="2"></button>
-        </div>
-      </div>
-    </section>
-
-    <!-- SOCIALS -->
-    <section id="socials" class="section">
-      <div class="wrap">
-        <div class="section-head" data-reveal>
-          <h2>Social</h2>
-          <p>Live, contenuti e highlights: entra nella #23KFamily.</p>
-        </div>
-
-        <div class="grid partners" data-reveal>
-          <a class="partner" href="https://www.twitch.tv/23kteam" target="_blank" rel="noreferrer" aria-label="Twitch 23K Team">
-            <span>Twitch</span>
-          </a>
-          <a class="partner" href="https://www.instagram.com/the23kteam" target="_blank" rel="noreferrer" aria-label="Instagram 23K Team">
-            <span>Instagram</span>
-          </a>
-          <a class="partner" href="https://www.youtube.com/channel/UC3_Y9m0GOqOrO9uFhjiJPQQ" target="_blank" rel="noreferrer" aria-label="YouTube 23K Team">
-            <span>YouTube</span>
-          </a>
-          <a class="partner" href="https://www.tiktok.com/@the23kteam" target="_blank" rel="noreferrer" aria-label="TikTok 23K Team">
-            <span>TikTok</span>
-          </a>
-          <a class="partner" href="https://www.facebook.com/23K.Team" target="_blank" rel="noreferrer" aria-label="Facebook 23K Team">
-            <span>Facebook</span>
-          </a>
-          <a class="partner" href="https://discord.gg/element-gaming-asd-365966047058198529" target="_blank" rel="noreferrer" aria-label="Discord Element Gaming">
-            <span>Discord</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- GAMES -->
-    <section id="games" class="section alt">
-      <div class="wrap">
-        <div class="section-head" data-reveal>
-          <h2>Divisioni</h2>
-          <p>Le nostre divisioni attive: competitive, contenuti e community.</p>
-        </div>
-
-        <div class="grid game-cards">
-          <article class="game" data-reveal>
-            <div class="tag">FPS</div>
-            <h3>VALORANT</h3>
-            <p>Strategia, timing e disciplina: punta a top tier con un playbook chiaro.</p>
-            <ul>
-              <li>Scrim settimanali</li>
-              <li>VOD review</li>
-              <li>Tryout aperti</li>
-            </ul>
-          </article>
-          <article class="game" data-reveal>
-            <div class="tag">BR</div>
-            <h3>Apex Legends</h3>
-            <p>Macro + micro: rotazioni pulite e fight decisi, senza paura.</p>
-            <ul>
-              <li>Custom & ranked grind</li>
-              <li>Analisi endgame</li>
-              <li>Coach support</li>
-            </ul>
-          </article>
-          <article class="game" data-reveal>
-            <div class="tag">PvPvE</div>
-            <h3>ARC Raiders</h3>
-            <p>Un approccio moderno: contenuti, teamplay e community.</p>
-            <ul>
-              <li>Road to competitive</li>
-              <li>Content formats</li>
-              <li>Eventi community</li>
-            </ul>
-          </article>
-
-          <article class="game" data-reveal>
-            <div class="tag">FPS/MMO</div>
-            <h3>Destiny 2</h3>
-            <p>Raid, PvP e buildcrafting: organizzazione e performance, insieme.</p>
-            <ul>
-              <li>Raid & dungeon</li>
-              <li>Trial / PvP</li>
-              <li>Guide e contenuti</li>
-            </ul>
-          </article>
-
-          <article class="game" data-reveal>
-            <div class="tag">Racing</div>
-            <h3>Sim Racing</h3>
-            <p>Setup puliti, costanza e competizione: dal hotlap al campionato.</p>
-            <ul>
-              <li>Campionati e leghe</li>
-              <li>Telemetry review</li>
-              <li>Eventi community</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- NEWS -->
-    <section id="news" class="section">
-      <div class="wrap">
-        <div class="section-head" data-reveal>
-          <h2>News</h2>
-          <p>Aggiornamenti rapidi: modifica le card in <code>script.js</code> (news) o punta tutto ai social.</p>
-        </div>
-
-        <div class="grid news" id="newsGrid" aria-live="polite"></div>
-      </div>
-    </section>
-
-    <!-- RESULTS -->
-    <section id="results" class="section alt">
-      <div class="wrap">
-        <div class="section-head" data-reveal>
-          <h2>Risultati</h2>
-          <p>Un posto pulito per highlight e piazzamenti. Aggiorna in <code>script.js</code>.</p>
-        </div>
-
-        <div class="results">
-          <div class="results-table" data-reveal>
-            <div class="rt-head">
-              <span>Evento</span><span>Game</span><span>Posizione</span><span>Data</span>
-            </div>
-            <div id="resultsRows"></div>
-          </div>
-
-          <aside class="highlight" data-reveal>
-            <h3>Highlight</h3>
-            <p>
-              Aggiungi un clip, un tweet o un video YouTube.
-              Qui sotto trovi un embed “placeholder”.
-            </p>
-            <div class="embed" role="group" aria-label="Video highlight">
-              <iframe
-                title="YouTube — 23K Team"
-                src="https://www.youtube-nocookie.com/embed?listType=channel&list=UC3_Y9m0GOqOrO9uFhjiJPQQ"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-                loading="lazy"
-              ></iframe>
-            </div>
-            <a class="btn ghost" href="https://www.youtube.com/channel/UC3_Y9m0GOqOrO9uFhjiJPQQ" target="_blank" rel="noreferrer">Guarda su YouTube</a>
-          </aside>
-        </div>
-      </div>
-    </section>
-
-    <!-- PARTNERS -->
-    <section id="partners" class="section">
-      <div class="wrap">
-        <div class="section-head" data-reveal>
-          <h2>Sponsor & codici sconto</h2>
-          <p>Supporta il team e approfitta delle promo della #23KFamily.</p>
-        </div>
-
-        <div class="grid partners" data-reveal>
-          <a class="partner" href="https://discord.gg/element-gaming-asd-365966047058198529" target="_blank" rel="noreferrer" aria-label="Element Gaming — Discord">
-            <span>Element Gaming (Discord)</span>
-          </a>
-          <a class="partner" href="https://www.instagram.com/noisyboys.merch?igsh=dmllcng2cnE4cDBx" target="_blank" rel="noreferrer" aria-label="Noisyboys Merch — Instagram">
-            <span>Noisyboys Merch</span>
-          </a>
-          <a class="partner" href="https://www.instant-gaming.com/?igr=GO23K" target="_blank" rel="noreferrer" aria-label="Instant Gaming — link sconto">
-            <span>Instant Gaming (GO23K)</span>
-          </a>
-          <div class="partner" role="note" aria-label="Codice sconto Noisyboys">
-            <span>Noisyboys -25%: <strong>GO23K</strong></span>
-          </div>
-        </div>
-
-        <div class="cta wide" data-reveal>
-          <div>
-            <h3>Vuoi lavorare con 23K Team?</h3>
-            <p>Media kit, sponsorship, eventi e produzione contenuti. Scrivici per collaborazioni.</p>
-          </div>
-          <a class="btn" href="#contact">Contattaci</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section alt">
-      <div class="wrap">
-        <div class="section-head" data-reveal>
-          <h2>Contatti</h2>
-          <p>Form pronto: sostituisci l’endpoint in <code>script.js</code> (Formspree / Getform / endpoint tuo).</p>
-        </div>
-
-        <div class="contact">
-          <form class="form" id="contactForm" data-reveal>
-            <label>
-              <span>Nome</span>
-              <input name="name" autocomplete="name" placeholder="Il tuo nome" required />
-            </label>
-            <label>
-              <span>Email</span>
-              <input type="email" name="email" autocomplete="email" placeholder="nome@email.com" required />
-            </label>
-            <label>
-              <span>Messaggio</span>
-              <textarea name="message" rows="5" placeholder="Come possiamo aiutarti?" required></textarea>
-            </label>
-            <button class="btn" type="submit">Invia</button>
-            <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
-          </form>
-
-          <aside class="contact-card" data-reveal>
-            <h3>Info</h3>
-            <div class="info">
-              <div>
-                <span>Email</span>
-                <a href="mailto:23k.officialteam@gmail.com">23k.officialteam@gmail.com</a>
-              </div>
-              <div>
-                <span>Codice Instant Gaming</span>
-                <a href="https://www.instant-gaming.com/?igr=GO23K" target="_blank" rel="noreferrer">GO23K</a>
-              </div>
-              <div>
-                <span>Codice Noisyboys (-25%)</span>
-                <span class="muted"><strong>GO23K</strong></span>
-              </div>
-              <div>
-                <span>Social</span>
-                <div class="social">
-                  <a href="https://www.instagram.com/the23kteam" target="_blank" rel="noreferrer" aria-label="Instagram">Instagram</a>
-                  <a href="https://www.twitch.tv/23kteam" target="_blank" rel="noreferrer" aria-label="Twitch">Twitch</a>
-                  <a href="https://www.youtube.com/channel/UC3_Y9m0GOqOrO9uFhjiJPQQ" target="_blank" rel="noreferrer" aria-label="YouTube">YouTube</a>
-                  <a href="https://www.tiktok.com/@the23kteam" target="_blank" rel="noreferrer" aria-label="TikTok">TikTok</a>
-                  <a href="https://www.facebook.com/23K.Team" target="_blank" rel="noreferrer" aria-label="Facebook">Facebook</a>
-                  <a href="https://discord.gg/element-gaming-asd-365966047058198529" target="_blank" rel="noreferrer" aria-label="Discord">Discord</a>
-                </div>
-              </div>
-            </div>
-          </aside>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="wrap">
-      <div class="foot">
-        <div class="brand small">
-          <img src="assets/logo.png" alt="" width="34" height="34" />
-          <span>
-            <strong>23K Team</strong>
-            <em>Esports</em>
-          </span>
-        </div>
-
-        <div class="foot-links">
-          <a href="#games">Divisioni</a>
-          <a href="#socials">Social</a>
-          <a href="#news">News</a>
-          <a href="#partners">Sponsor</a>
-          <a href="#contact">Contatti</a>
-        </div>
-
-        <div class="copy">
-          <span>© <span id="year"></span> 23K Team. Tutti i diritti riservati.</span>
-          <span class="sep">•</span>
-          <a href="#" aria-label="Privacy">Privacy</a>
-          <span class="sep">•</span>
-          <a href="#" aria-label="Cookie">Cookie</a>
-        </div>
-      </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2026 23K Esport Team. Tutti i diritti riservati.</p>
+      <p class="footer-disclaimer">
+        23K Esport Team è una community gaming indipendente. 
+        I loghi dei giochi sono marchi registrati dei rispettivi proprietari.
+      </p>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>

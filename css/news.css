@@ -1,0 +1,11 @@
+/* News page specific styles */
+
+.grid.news{grid-template-columns:repeat(3, minmax(0,1fr))}
+
+@media (max-width: 980px){
+  .grid.news{grid-template-columns:repeat(2, minmax(0,1fr))}
+}
+
+@media (max-width: 520px){
+  .grid.news{grid-template-columns:1fr}
+}
